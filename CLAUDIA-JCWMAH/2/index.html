@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h4>Kegiatan Selama Pandemi</h4>
+
+<div>
+    <table class="tabel">
+        <thead>
+            <tr>
+                <td>  </td>
+                <td><input type="date" id="tanggalData"></td>
+                <td><input type="text" id="jamData">
+                <select id="amOrpm">
+                    <option>AM</option>
+                    <option>PM</option>
+                </select></td>
+                <td><input type="text" id="activities"></td>
+                <td><input type="text" id="linkGambar"></td>
+                <td><button onclick="tambahData()">Tambah</button></td>
+            </tr>
+
+            <tr>
+                <th>No</th>
+                <th>Tanggal</th>
+                <th>Jam</th>
+                <th>Kegiatan</th>
+                <th>Lokasi</th>
+                <th>Setting</th>
+            </tr>
+        </thead>
+        <tbody id="masukData">
+
+        </tbody>
+        
+    </table>
+</div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
